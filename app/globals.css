@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.auth-form {
+    display: none;
+  }
+  
+  .auth-form:target {
+    display: block;
+  }
+  
+  #login:target ~ .auth-form#signup,
+  #signup:target ~ .auth-form#login {
+    display: none;
+  }
+  
