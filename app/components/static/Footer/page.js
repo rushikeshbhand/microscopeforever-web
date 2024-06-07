@@ -78,7 +78,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-lime-700">
+            <div className="bg-lime-600">
                 <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                     <p className="text-white text-sm text-center sm:text-left">© 2024 Microscopeforever.com — All Rights Reserved
                     </p>

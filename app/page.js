@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Home = () => {
     return (
-        <section className='bg-gradient-to-b from-teal-900 to-white-50 h-[550px] w-full'>
+        <section className='bg-gradient-to-b from-lime-600 to-white-50 h-[550px] w-full'>
             <div className="container mx-auto flex flex-col items-center py-16">
                 <h1 className="text-4xl font-bold mb-4 text-white">Find the Best Articles</h1>
                 <p className="text-lg mb-8 text-gray-200 text-center">Search through a wide range of articles to find exactly what you need.</p>
